@@ -6,11 +6,8 @@
 using namespace std;
 
 // Count Strongly Connected Components (Kosaraju's Algorithm)
-
 // You are given an unweighted directed graph having 'V' vertices and 'E' edges. Your task is to count the number of strongly connected components (SCCs) present in the graph.
 // A directed graph is said to be strongly connected if every vertex is reachable from every other vertex. The strongly connected components of a graph are the subgraphs which are themselves strongly connected.
-
-
 // Steps:-
 // 1.Sort all nodes on the basis of their finishing time(Topological sort)
 // 2.Transpose of graph
@@ -34,8 +31,8 @@ void newDFS(int node,unordered_map<int,list<int>> &adj,vector<bool> &visited){
         }
     }
 }
-int stronglyConnectedComponents(int v,vector<vector<int>> graph){
 
+int stronglyConnectedComponents(int v,vector<vector<int>> graph){
     unordered_map<int,list<int>> adj;
     for(auto i:graph){
         adj[i[0]].push_back(i[1]);
@@ -48,13 +45,11 @@ int stronglyConnectedComponents(int v,vector<vector<int>> graph){
             DFS(0,visited,adj,st);
         }
     }
-
     // Transpose of graph
     // unordered_map<int,list<int>> transposeGraph;
     // for(auto i:graph){
     //     transposeGraph[i[1]].push_back(i[0]);
     // }
-
     unordered_map<int, list<int> > transpose;
     for(int i=0; i<v; i++) {
         // to use it for next DFS
@@ -63,7 +58,6 @@ int stronglyConnectedComponents(int v,vector<vector<int>> graph){
             transpose[nbr].push_back(i);
         }
     }
-
     // DFS call according to toplogical sort
     int cnt;
     while (!st.empty())
@@ -77,8 +71,6 @@ int stronglyConnectedComponents(int v,vector<vector<int>> graph){
     }
     return cnt;
 }
-
-
 
 int main(){
 

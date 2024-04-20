@@ -52,6 +52,7 @@ bool checkCycleBFS(vector<pair<int,int> > edge,int n,int m){
             }
         }
     }
+    return "No";
 }
 
 

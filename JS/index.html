@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="JavaScript.js"></script>
+    <script>
+        const candrive = (age) => {
+            return age >= 18 ? true : false
+        }
+        let check = true 
+        do {
+            let a = prompt("What is the age of driver")
+            age = parseInt(a)
+
+            if(age<0){
+                location.href("https://google.com")
+            }
+
+            if (candrive(age)) {
+                alert("You can Drive")
+            }
+            
+            else {
+                alert("You can not drive")
+                console.error("You can not drive")
+            }
+            check = confirm("Want to see this page again")
+        } while (check)
+
+        // -----
+        // let color=prompt("Enter the color of the bg")
+        // document.body.style.backgroundColor=color
+
+        // Snake Water Gun Game
+
+        let snake=1
+        let water=2
+        let gun=3
+
+        let comp=Math.random3
+        console.log(comp)
+
+    </script>
+
+</body>
+
+</html>

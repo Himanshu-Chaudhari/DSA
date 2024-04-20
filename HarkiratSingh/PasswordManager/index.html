@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+        <div class="logo">PassX</div>
+    </nav>
+    <div class="container">
+        <h1>Password Manager</h1>
+
+        <h2>Your Passwords <span id="alert">(Copied!)</span> </h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Website</th>
+                <th>Password</th>
+                <th>Action</th>
+            </tr>
+            <!-- <tr>
+                <td>Facebook</td>
+                <td>www.fb.com</td>
+                <td>12345</td>
+                <td>click</td>
+            </tr> -->
+        </table>
+        <h2>Add Passwords</h2>
+        <form action="/submit" method="post">
+        
+            <label for="username">Username : </label>
+            <input type="text" id="username" name="password" required>
+            <br>
+            <label for="website">Website : </label>
+            <input type="text" id="website" name="website" required>
+            <br>
+            <label for="password">Password : </label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <button class="btn" type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+    
+
+</body>
+</html>

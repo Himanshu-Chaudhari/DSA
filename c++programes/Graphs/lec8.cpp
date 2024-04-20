@@ -25,8 +25,8 @@ vector<int> Dijstras(vector<vector<int> > v,int nodes,int edges,int src){
         // fetching top node of the set
         auto top=*(s.begin());
         s.erase(s.begin());
-        int weight=top.first;
-        int topNode=top.second;
+        int weight =top.first;
+        int topNode =top.second;
         for(auto i:adj[topNode]){
             if(distance[i.first] > weight+i.second){
                 // checking if the node is already present in the set
@@ -50,7 +50,7 @@ int main(){
     // 1 4 1
     // 3 4 7
     vector<vector<int>> v{{0,1,7},{0,2,1},{0,3,2},{1,2,3},{1,3,5},{1,4,1},{3,4,7}};
-    vector<int> ans=Dijstras(v,5,7,0);
+    vector<int> ans=Dijstras(v,5,7,3);
     for(auto i:ans){
         cout<<i<<" ";
     }
