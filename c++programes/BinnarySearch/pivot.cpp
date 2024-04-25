@@ -109,10 +109,10 @@ double morePresise(int n,int presiseDigits,int tempSol){
     return ans;
 }
 int main(){
-    // int arr[8]={5,6,7,9,11,2,3,4};
-    // cout<<pivot(arr,8)<<endl;
+    int arr[8]={4,5,6,7,0,1,2};
+    cout<<pivot(arr,8)<<endl;
     // // cout<<BinarySearch(arr,0,7,11);
     // cout<<seachInRotated(arr,5,8)<<endl;
-    cout<<sqrt(36)<<endl;
-    cout<<morePresise(59,4,7);
+    // cout<<sqrt(36)<<endl;
+    // cout<<morePresise(59,4,7);
 }

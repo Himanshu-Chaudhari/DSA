@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormAssignment(travel website)</title>
+</head>
+<body>
+    <h1>
+        Welcome to travel.com 
+    </h1>
+    <div>
+        <form action="temp.php">
+            Name<input type="text" ><br>
+            Middle Name <input type="text" ><br>
+            Last Name <input type="text"><br>
+            age <input type="text" placeholder="Please enter a number"> <br>
+            <br>
+
+            <label for="male">
+                Gender 
+                <br>
+                <input type="radio" name="gender" value="gender" id="gender">male
+            </label>
+
+            <label for="female">
+                <input type="radio" name="gender" value="gender" id="gender">female
+            </label>
+            <br>
+            <br>
+            
+            <label for="dates">
+                Date of Journey <input type="date" name="date" value="date" id="date">
+            </label>
+
+            
+            <select name="city" id="city">
+                <option>Select destination</option>
+                <option value="mumbai">Mumbai</option>
+                <option value="delhi">Delhi</option>
+                <option value="other">other</option>
+            </select>
+        </form>
+    </div>
+</body>
+</html>

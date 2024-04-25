@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "iosfwd": "cpp",
+        "vector": "cpp",
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "list": "cpp",
+        "map": "cpp",
+        "queue": "cpp",
+        "__mutex_base": "cpp",
+        "tuple": "cpp",
+        "unordered_map": "cpp",
+        "stack": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "enabled"
+}

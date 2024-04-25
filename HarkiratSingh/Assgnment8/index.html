@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            color: white;
+        }
+        body{
+            background: black;
+        }
+        h1{
+            margin-top: 50px;
+            text-align: center;
+        }
+        
+        .cont{
+            box-shadow: 20px dimgrey;
+            max-width: 30%;
+            display: flex;
+            margin: auto;
+            justify-content: center;
+            padding: 10px;
+            margin-top: 100px;
+            border: 5px solid white;
+            
+        }
+        input{
+            color: black;
+        }
+        button{
+            background-color: black;
+            margin-left: 15px;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Alarm Clock</h1>
+    <div class="cont">
+        <label for="time">Time :-</label><input type="time" name="alarm-time" id="alarm-time">
+        <button onclick="setAlarm()" id="setalarm">Set</button>
+        <button onclick="resetAlarm()" id="resetalarm">Reset</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -20,7 +20,6 @@ void DFS(int i,int parent,int &timer,unordered_map<int,list<int>> &adj,
         if(neighbour==parent){
             continue;
         }
-
         if(!visited[neighbour]){
             DFS(neighbour,i,timer,adj,discovery,low,visited,articulationPoint);
             low[i]=min(low[i],low[neighbour]);

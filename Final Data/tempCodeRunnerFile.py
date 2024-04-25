@@ -1,0 +1,1 @@
+0: 'None', 1: 'Diabetes', 2: 'Asthma', 3: 'Heart Disease'

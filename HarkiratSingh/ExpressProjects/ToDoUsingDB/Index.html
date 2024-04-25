@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaning Express</title>
+    <script>
+
+        let deleteToDo=(id)=>{
+            let sendObj={
+                method: "DELETE",
+                headers: {
+                    "Content-Type" : 'application/json'
+                }
+            }
+            fetch("http://localhost:3000/todos/"+id,sendObj).then(()=>{
+                document.getElementById('cont').innerHTML=""
+                callFetchOnLoad()
+            })
+        }
+        let onPress = () => {
+            let senObj = {
+                method: "POST",
+                body: JSON.stringify({
+                    title:document.getElementById('title').value,
+                    discription:document.getElementById('dis').value,
+                    completed:"false"
+                }),
+                headers: {
+                   "Content-Type" : 'application/json'
+                }
+            }
+            fetch("http://localhost:3000/todos", senObj).then((res) => {
+                res.json().then((data,err) => {
+                    console.log(data)
+                    let i=data.length-1
+                    let emptySpace=document.createElement('span')
+                    emptySpace.innerHTML="."
+                    let parent=document.getElementById('cont')
+                    
+                        let child=document.createElement('div')
+
+                        let grandChild1=document.createElement('span')
+                        grandChild1.innerHTML=data[i].title+emptySpace.innerText
+
+                        let grandChild2=document.createElement('span')
+                        grandChild2.innerHTML=data[i].discription+emptySpace.innerText
+
+                        let grandChild3=document.createElement('button')
+                        grandChild3.innerHTML="delete"
+                        grandChild3.setAttribute("onclick","deleteToDo("+data[i].id+")")
+
+                        child.appendChild(grandChild1)
+                        child.appendChild(grandChild2)
+                        child.appendChild(grandChild3)
+
+                        parent.appendChild(child)
+                    
+
+                    document.getElementById('cont').innerHTML=parent.innerHTML
+                })
+            }).catch((err)=>{
+                console.log(err)
+            })
+        } 
+
+        let callFetchOnLoad=()=>{
+            fetch('http://localhost:3000/todos',{method:'GET'}).then((res)=>{
+                res.json().then((data)=>{
+                    let parent=document.getElementById('cont')
+                    let emptySpace=document.createElement('span')
+                    emptySpace.innerHTML="."
+
+                    for(let i=0;i<data.length;i++){
+                        let child=document.createElement('div')
+
+                        let grandChild1=document.createElement('span')
+                        grandChild1.innerHTML=data[i].title+emptySpace.innerText
+
+                        let grandChild2=document.createElement('span')
+                        grandChild2.innerHTML=data[i].discription+emptySpace.innerText
+
+                        let grandChild3=document.createElement('button')
+                        grandChild3.innerHTML="delete"
+                        grandChild3.setAttribute("onclick","deleteToDo("+data[i].id+")")
+
+                        child.appendChild(grandChild1)
+                        child.appendChild(grandChild2)
+                        child.appendChild(grandChild3)
+
+                        parent.appendChild(child)
+                    }
+                    document.getElementById('cont').innerHTML=parent.innerHTML                 
+                })
+            })
+        }
+        let callFetchOnLoad1=()=>{
+
+        }
+    </script>
+</head>
+
+<body onload="callFetchOnLoad()">
+    <label for="title">Todo title</label>
+    <input type="text" value="title" id="title"><br>
+    <label for="title">Todo discription</label>
+    <input type="text" value="dis" id="dis"><br>
+    <button onclick="onPress()">Submit</button>
+    <div id="cont"></div>
+</body>
+
+</html>

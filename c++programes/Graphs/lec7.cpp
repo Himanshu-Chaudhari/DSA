@@ -55,6 +55,7 @@ vector<int> findShortedDistance(unordered_map<int,list<pair<int,int>>> &graph,in
 
 int main(){
     Graph g;
+    // u , v , w 
     g.addEdge(0,1,5);
     g.addEdge(0,2,3);
     g.addEdge(1,2,2);

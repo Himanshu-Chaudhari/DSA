@@ -47,29 +47,22 @@ vector<vector<int>> findBridge(vector<vector<int>> &edges,int v,int e){
 
     // to track the nodes
     int timer=0;
-
     // to track the possible distance
     vector<int> dist(v,-1);
-
     // to track the lowest possible distance
     vector<int> low(v,-1);
-
     //to check node is already visited or not
     unordered_map<int,bool> vis;
-
     //to track the parent of the node
     int parent=-1;
-
     //to store ans
     vector<vector<int>> result;
-
     // DFS 
     for(int i=0;i<v;i++){
         if(!vis[i]){
             DFS(adj,i,parent,timer,dist,low,vis,result);
         }
     }
-
     return result;
 } 
 int main(){

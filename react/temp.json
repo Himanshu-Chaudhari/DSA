@@ -1,0 +1,266 @@
+{
+    "status": "ok",
+    "totalResults": 36,
+    "articles": [
+        {
+            "source": {
+                "id": "espn",
+                "name": "ESPN"
+            },
+            "author": "Todd Archer",
+            "title": "Cowboys score offensive, defensive TDs, then tack on a safety vs. Rams - ESPN - ESPN",
+            "description": "The Cowboys racked up points from all angles early in Sunday's game, including a safety off a blocked punt.",
+            "url": "https://www.espn.com/nfl/story/_/id/38772036/cowboys-dak-prescott-jake-ferguson-td-rams",
+            "urlToImage": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2023%2F1029%2Fr1245462_1296x729_16%2D9.jpg",
+            "publishedAt": "2023-10-29T18:26:18Z",
+            "content": "ARLINGTON, Texas -- Just 16 minutes, 21 seconds into Sunday's game against the Los Angeles Rams, the Dallas Cowboys had points from their offense, defense and special teams.\r\nOne was expected: tight … [+2603 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "[Removed]"
+            },
+            "author": null,
+            "title": "[Removed]",
+            "description": "[Removed]",
+            "url": "https://removed.com",
+            "urlToImage": null,
+            "publishedAt": "1970-01-01T00:00:00Z",
+            "content": "[Removed]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CNBC"
+            },
+            "author": "Rebecca Picciotto, Natasha Turak, Joanna Tan",
+            "title": "Israel-Hamas war live updates: Thousands break into UN warehouses in Gaza; Israel vows to continue 'large scale' strikes - CNBC",
+            "description": "Israel has pledged to keep up with its \"large scale, significant strikes\" in the besieged Gaza Strip.",
+            "url": "https://www.cnbc.com/2023/10/29/israel-hamas-war-live-updates-latest-news-on-gaza-conflict.html",
+            "urlToImage": "https://image.cnbcfm.com/api/v1/image/107324908-1698496957322-gettyimages-1749224815-AFP_33Z84FN.jpeg?v=1698508953&w=1920&h=1080",
+            "publishedAt": "2023-10-29T17:47:00Z",
+            "content": "The World Health Organization and the Red Cross reiterated on Sunday that hospitals are protected under international humanitarian law and should not be targets of attack in the Israel-Hamas war, fol… [+1237 chars]"
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Gabrielle Tétrault-Farber",
+            "title": "Gazans break into aid centres, taking flour and supplies, UN says - Reuters.com",
+            "description": "Thousands of Gaza residents broke into U.N. warehouses on Sunday, grabbing flour and other essential items in a sign they had reached \"breaking point\", the United Nations Palestinian refugee agency (UNRWA) said.",
+            "url": "https://www.reuters.com/world/middle-east/gazans-break-into-aid-centres-taking-flour-supplies-un-says-2023-10-29/",
+            "urlToImage": "https://www.reuters.com/resizer/dCXV0acKqhlamHjGvvx8A_6PmK4=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/PE5XGURV7FPOHDHIALUGNVVWE4.jpg",
+            "publishedAt": "2023-10-29T17:32:00Z",
+            "content": "Oct 29 (Reuters) - Thousands of Gaza residents broke into U.N. warehouses on Sunday, grabbing flour and other essential items in a sign they had reached \"breaking point\", the United Nations Palestini… [+2696 chars]"
+        },
+        {
+            "source": {
+                "id": "usa-today",
+                "name": "USA Today"
+            },
+            "author": "Bailey Schulz",
+            "title": "S&P 500 and Nasdaq are in correction territory. What it means for you and your 401(k). - USA TODAY",
+            "description": "The S&P 500 and Nasdaq Composite were in correction territory after dipping more than 10% from recent peaks. Will the stock market recover?",
+            "url": "https://www.usatoday.com/story/money/2023/10/29/stock-market-correction-territory-meaning/71349135007/",
+            "urlToImage": "https://www.usatoday.com/gcdn/authoring/authoring-images/2023/10/27/USAT/71350613007-afp-afp-33-y-297-k.jpg?crop=7720,4345,x4,y244&width=3200&height=1802&format=pjpg&auto=webp",
+            "publishedAt": "2023-10-29T16:40:30Z",
+            "content": "If you're taking a fearful peek at your 401(k) following the stock market's recent plunge, you're not alone.\r\nThe S&amp;P 500 ended last week down more than 10% from its most recent high in July, whi… [+3254 chars]"
+        },
+        {
+            "source": {
+                "id": "the-wall-street-journal",
+                "name": "The Wall Street Journal"
+            },
+            "author": "Saeed Shah, Stephen Kalin, Omar Abdel-Baqui",
+            "title": "Israeli Ground Operation Pushes Deeper Into Gaza - The Wall Street Journal",
+            "description": "Soldiers are injured in clashes; U.N. says thousands raided food warehouses as humanitarian situation deteriorates",
+            "url": "https://www.wsj.com/world/middle-east/israeli-ground-operation-pushes-deeper-into-gaza-a22739e6",
+            "urlToImage": "https://images.wsj.net/im-877506/social",
+            "publishedAt": "2023-10-29T16:18:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Variety"
+            },
+            "author": "Rebecca Rubin",
+            "title": "Box Office: ‘Five Nights at Freddy’s’ Slays With $78 Million Domestic Debut, $130 Million Globally - Variety",
+            "description": "'Five Nights at Freddy's' crushed box office expectations, earning $78 million over the Halloween weekend.",
+            "url": "https://variety.com/2023/film/news/box-office-five-nights-at-freddys-opening-weekend-shatters-expectations-1235772316/",
+            "urlToImage": "https://variety.com/wp-content/uploads/2023/10/Five-Nights-at-Freddys.jpg?w=1000&h=563&crop=1",
+            "publishedAt": "2023-10-29T16:12:00Z",
+            "content": "Universal and Blumhouse‘s funhouse thriller “Five Nights at Freddy’s” slayed box office expectations with its scary-good $78 million domestic debut over Halloween weekend.\r\nThose ticket sales are esp… [+5933 chars]"
+        },
+        {
+            "source": {
+                "id": "politico",
+                "name": "Politico"
+            },
+            "author": null,
+            "title": "'This is not cancel culture': DeSantis defends call to ban pro-Palestinian groups at Florida colleges - POLITICO",
+            "description": "“You have a right to go out and demonstrate, but you can't provide material support to terrorism,\" he said.",
+            "url": "https://www.politico.com/news/2023/10/29/desantis-ban-pro-palestinian-florida-colleges-00124124",
+            "urlToImage": "https://static.politico.com/d0/d1/7d165afe498296b8093e781817bb/election-2024-desantis-57595.jpg",
+            "publishedAt": "2023-10-29T16:06:48Z",
+            "content": "This is not cancel culture. This group, they themselves said, in the aftermath of the Hamas attack, that they dont just stand in solidarity that they are part of this Hamas movement, DeSantis said du… [+913 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "",
+            "title": "Video: Hear Trump's response to Pence suspending his campaign - CNN",
+            "description": "Former President Donald Trump spoke out after former Vice President Mike Pence suspended his 2024 campaign amid lagging poll numbers and financial challenges, vowing to help elect “principled Republican leaders” moving forward.",
+            "url": "https://www.cnn.com/videos/politics/2023/10/29/donald-trump-responds-mike-pence-suspending-presidential-campaign-ip-vpx.cnn",
+            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/221111182340-trump-pence-split-111122-vpx.jpg?c=16x9&q=w_800,c_fill",
+            "publishedAt": "2023-10-29T15:59:43Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "YouTube"
+            },
+            "author": null,
+            "title": "Hospital authorities say they have received five warnings it will be bombed imminently - Al Jazeera English",
+            "description": "Al Jazeera’s Sohail Rahman spoke to Mads Gilbert, a Norweigan doctor who has worked in hospitals in Gaza and is in contact with his colleagues there. He reje...",
+            "url": "https://www.youtube.com/watch?v=T_MoABonR1c",
+            "urlToImage": "https://i.ytimg.com/vi/T_MoABonR1c/maxresdefault.jpg",
+            "publishedAt": "2023-10-29T15:55:45Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Steelers.com"
+            },
+            "author": null,
+            "title": "Steelers inactives for Week 8 vs. Jaguars - Steelers.com",
+            "description": "Find out who won't play today as the Steelers take on the Jacksonville Jaguars at Acrisure Stadium",
+            "url": "https://www.steelers.com/news/steelers-inactives-for-week-8-vs-jaguars",
+            "urlToImage": "https://static.clubs.nfl.com/image/private/t_editorial_landscape_12_desktop/steelers/yxba0gvd5qyuaabr2phf",
+            "publishedAt": "2023-10-29T15:37:32Z",
+            "content": "The Steelers dealt with injuries all week and that is impacting the cornerback position today.\r\nStarting cornerback Levi Wallace is inactive, dealing with foot injury that impacted his week of practi… [+2127 chars]"
+        },
+        {
+            "source": {
+                "id": "usa-today",
+                "name": "USA Today"
+            },
+            "author": "Nolan King",
+            "title": "Francis Ngannou reacts to boxing loss: Even Tyson Fury would say I won that fight - MMA Junkie",
+            "description": "While Francis Ngannou surprised the world vs. Tyson Fury, the judges surprised Francis Ngannou.",
+            "url": "https://mmajunkie.usatoday.com/2023/10/francis-ngannou-vs-tyson-fury-loss-reaction-decision-scorecards",
+            "urlToImage": "https://mmajunkie.usatoday.com/wp-content/uploads/sites/91/2023/10/Tyson-Fury-vs.-Francis-Ngannou-751331.jpg?w=1024&h=576&crop=1",
+            "publishedAt": "2023-10-29T14:31:07Z",
+            "content": "Francis Ngannou surprised the world vs. Tyson Fury, but the judges surprised Francis Ngannou.\r\nIn a crossover boxing match Saturday in Riyadh, Saudi Arabia, Ngannou lost a close split decision to Fur… [+3665 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "SciTechDaily"
+            },
+            "author": null,
+            "title": "Discovering Uranus' Glow: New Hints for Life on Icy Exoplanets - SciTechDaily",
+            "description": "University of Leicester astronomers confirm the existence of an infrared (IR) aurora on Uranus. The presence of an infrared aurora on the cold, outer planet of Uranus has been confirmed for the first time by University of Leicester astronomers. The discovery …",
+            "url": "https://scitechdaily.com/?p=322736",
+            "urlToImage": "https://scitechdaily.com/images/Uranus-Aurora.jpg",
+            "publishedAt": "2023-10-29T14:31:04Z",
+            "content": "ByUniversity of LeicesterOctober 29, 2023\r\nAn artistic representation of how the northern infrared aurora would have looked in 2006 (marked in red). The darker red locations indicate confirmed aurora… [+7707 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CBS Sports"
+            },
+            "author": "",
+            "title": "NFL Week 8 weather report: Heavy snow, rain could impact Chiefs vs. Broncos, Jets vs. Giants and other games - CBS Sports",
+            "description": "We are set to see our first snow game of the 2023 season",
+            "url": "https://www.cbssports.com/nfl/news/nfl-week-8-weather-report-heavy-snow-rain-could-impact-chiefs-vs-broncos-jets-vs-giants-and-other-games/",
+            "urlToImage": "https://sportshub.cbsistatic.com/i/r/2023/10/27/a1bf9afd-006f-46f0-b646-b9d5bad79b33/thumbnail/1200x675/c936572e0240486e7102d904a8026949/broncossnow.jpg",
+            "publishedAt": "2023-10-29T13:28:00Z",
+            "content": "Unless an NFL game is being played inside a dome, there is always the potential for weather to be a factor, and those chances increase as the season moves toward the colder months. In Week 8, multipl… [+2200 chars]"
+        },
+        {
+            "source": {
+                "id": "al-jazeera-english",
+                "name": "Al Jazeera English"
+            },
+            "author": "Al Jazeera",
+            "title": "Explosion hits Jehovah’s Witnesses prayer meeting in India’s Kerala - Al Jazeera English",
+            "description": "The blast takes place as hundreds gather for Sunday prayer in the southern town of Kalamassery in Kerala state.",
+            "url": "https://www.aljazeera.com/news/2023/10/29/explosion-hits-jehovahs-witnesses-prayer-meeting-in-indias-kerala",
+            "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2023/10/2023-10-29T082605Z_438406113_RC2824A0JWVI_RTRMADP_3_INDIA-BLASTS-1698569148.jpg?resize=1920%2C1440",
+            "publishedAt": "2023-10-29T13:06:07Z",
+            "content": "An explosion at a Christian prayer meeting in the southern Indian state of Kerala has killed one person and wounded at least 36, according to authorities.\r\nThe blast took place as hundreds of followe… [+2770 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "The Athletic"
+            },
+            "author": "Mark Eisenhauer, Rob Rossi and more",
+            "title": "Former NHL player Adam Johnson dies after ‘freak accident’ during hockey game in Britain’s top league - The Athletic",
+            "description": "Johnson was a former Penguins prospect who played 13 NHL games for Pittsburgh between the 2018-19 and 2019-20 seasons.",
+            "url": "https://theathletic.com/5008199/2023/10/28/adam-johnson-hockey-injury-cut/",
+            "urlToImage": "https://cdn.theathletic.com/app/uploads/2023/10/28215643/Johnson-scaled.jpg",
+            "publishedAt": "2023-10-29T12:56:15Z",
+            "content": "Former NHL forward and Nottingham Panthers player Adam Johnson has died after a freak accident in a match in Britains top hockey league, his club has confirmed.\r\nThe Challenge Cup game against the Sh… [+5940 chars]"
+        },
+        {
+            "source": {
+                "id": "fox-news",
+                "name": "Fox News"
+            },
+            "author": "Stephen Sorace, Gabriele Regalbuto",
+            "title": "Florida shooting leaves at least 2 dead, 18 injured during Halloween celebrations - Fox News",
+            "description": "A dispute between two groups escalated into a deadly shooting in a Tampa neighborhood where hundreds of people were leaving bars and clubs early Sunday.",
+            "url": "https://www.foxnews.com/us/florida-shooting-leaves-dead-injured-during-halloween-celebrations",
+            "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2023/10/Tampa-Shooting-Photo-2.jpg",
+            "publishedAt": "2023-10-29T12:41:00Z",
+            "content": "A shooting in Tampa, Florida, killed at least two people and injured 18 more after a fight broke out between two groups on a street crowded with hundreds of people during Halloween celebrations early… [+1878 chars]"
+        },
+        {
+            "source": {
+                "id": "ars-technica",
+                "name": "Ars Technica"
+            },
+            "author": "Ron Amadeo",
+            "title": "Android 14 review: There’s always next year - Ars Technica",
+            "description": "Android 14 offers a lightly customizable lock screen and not much else.",
+            "url": "https://arstechnica.com/gadgets/2023/10/android-14-review-theres-always-next-year/",
+            "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2023/10/floorp_59gE8sxpaq-655x380.png",
+            "publishedAt": "2023-10-29T12:00:53Z",
+            "content": "Enlarge/ The new Android logo. \r\n29 with \r\nDoes anybody care about Android 14?\r\nThis year's release of the world's most popular operating system feels like one of the smallest ever, bringing just a h… [+4850 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CNBC"
+            },
+            "author": "Annika Kim Constantino",
+            "title": "Some pharmacy staff from Walgreens, other chains are walking out again — here's what you need to know - CNBC",
+            "description": "The walkouts are the latest pushback against what pharmacy staff claim are harsh and unsafe working conditions that put both employees and patients at risk.",
+            "url": "https://www.cnbc.com/2023/10/29/pharmacy-staff-from-walgreens-chains-like-cvs-to-walk-out-again.html",
+            "urlToImage": "https://image.cnbcfm.com/api/v1/image/107315641-16970631262023-10-11t222159z_685549174_rc2pn2arcf2l_rtrmadp_0_health-coronavirus-usa-vaccines.jpeg?v=1698414259&w=1920&h=1080",
+            "publishedAt": "2023-10-29T12:00:02Z",
+            "content": "A sign advertises COVID-19 (coronavirus) vaccine shots at a Walgreens Pharmacy in Somerville, Massachusetts, August 14, 2023.\r\nSome pharmacy staff from Walgreens and other drugstore chains are planni… [+10903 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Paradise Afshar",
+            "title": "1 person was killed and 8 others were injured in a shooting at a party in Indianapolis, police say - CNN",
+            "description": "One person was killed and eight others were injured in a shooting at a party in Indianapolis, Indiana, early Sunday, authorities said.",
+            "url": "https://www.cnn.com/2023/10/29/us/indianapolis-indiana-party-shooting/index.html",
+            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/231029073030-indianapolis-halloween-shooting-102023.jpg?c=16x9&q=w_800,c_fill",
+            "publishedAt": "2023-10-29T11:43:00Z",
+            "content": "One person was killed and eight others were injured in a shooting at a party in Indianapolis, Indiana, early Sunday, authorities said.\r\nOfficers were already responding to the scene after getting rep… [+781 chars]"
+        }
+    ]
+}

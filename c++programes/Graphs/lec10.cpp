@@ -1,10 +1,7 @@
 #include<iostream>
 #include<vector>
 using namespace std;
-
-
 //  Kruskals Algo used to find MST and weight of MST
-
 // comparator use to sort the vector in order of their weights
 bool compare(vector<int> *firstEdge,vector<int> *secondEdge){
     return firstEdge[2]>secondEdge[2];
@@ -42,20 +39,16 @@ void makeUnion(int u,int v,vector<int> &parent,vector<int> &rank){
 
 // vector has index 0:source 1:destination 2:weight , n=nodes
 int minimumSpanningTree(vector<vector<int>>& edges,int n){
-
     // We arrange the edges in ascending order in order of their weights 
     sort(edges.begin(),edges.end(),compare);
     vector<int> parent;
     vector<int> rank;
     makeSet(parent,rank,n);
-
     int weight=0;
-
     for(int i=0;i<edges.size();i++){
         int u=findParent(parent,edges[i][0]);
         int v=findParent(parent,edges[i][1]);
         int w=edges[i][2];
-         
         // if both nodes have same parent then they are already part of mst so we dont add this node else, we go on to add this nodes
         if(u != v){
             weight+=w;

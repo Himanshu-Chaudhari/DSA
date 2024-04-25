@@ -1,0 +1,195 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+.cont1{
+    height: 67vh;
+    
+    background-image: url(vegetables-set-left-black-slate_1220-685.jpg);
+    
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+}
+.cont2{
+    height: 43vh;
+    background-color: rgb(144, 31, 31);
+    
+}
+.head{
+    height: 10vh;
+    padding: 5px;
+    display:flex;
+    justify-content: space-between;  
+}
+.heading{
+    padding-left: 20px;
+    padding-top: 30px;
+    color:white;
+    z-index: 2;
+    
+}
+.food{
+    margin-top: 7px;
+    margin-left: 20px;
+    height: 40px;
+    width:40px
+}
+.order{
+    color: black;
+}
+.items ul li{
+    margin-top: 5px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+}
+
+.buttons ul li{
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: orange;
+    padding: 5px;
+    margin-top: 25px;
+    margin-left: 70px;
+    border-radius: 20px;
+}
+
+.headingmain{
+    font-weight: 300;
+    color: white;
+    padding-left: 25px;
+    padding-top: 20px;
+    width: 300px;
+    
+}
+.order{
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: orange;
+    padding: 5px;
+    margin-top: 25px;
+    margin-left: 70px;
+    border-radius: 10px;
+    margin-left: 625px;
+    /* padding-top: 20px; */
+}
+
+.layer1{
+    display: flex;
+}
+
+.contact{
+    color: white;
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 24px;
+    height: 34px;
+    width: 74px;
+}
+.phoneimg{
+    padding-left: 15px;
+    background-image: url(phoneno.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    /* display: inline-block; */
+    margin-top: 25px;
+    margin-left: 24px;
+    height: 34px;
+    width: 34px;
+    z-index: 2;
+    border-radius: 5px;
+}
+.download{
+    margin-top: 25px;
+    margin-left: 824px;
+    color: white;
+    font-weight: 200;
+}
+
+.layer2{
+    display: flex;
+}
+.messageimg{
+    padding-left: 15px;
+    background-image: url(message.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    position: relative;
+    margin-top: 25px;
+    margin-left: 24px;
+    height: 34px;
+    width: 34px;
+    border-radius: 5px;
+}
+.message{
+    color: white;
+    display: inline-block;
+    margin-top: 33px;
+    margin-left: 24px;
+    height: 34px;
+    width: 74px;
+}
+.gp{
+   background-image: url(googleplay.jpg);
+   height: 34px;
+   width: 104px;
+   margin-top: 25px;
+    margin-left: 824px;
+    background-size:cover;
+    border-radius: 5px;
+}
+.layer3{
+    display: flex;
+    height: 144px;
+}
+.locationimg{
+    padding-left: 15px;
+    background-image: url(location.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    position: relative;
+    margin-top: 25px;
+    margin-left: 24px;
+    height: 34px;
+    width: 34px;
+    border-radius: 5px;
+   
+}
+.location{
+    color: white;
+    display: inline-block;
+    margin-top: 23px;
+    margin-left: 24px;
+    height: 34px;
+    width: 234px;
+}
+.appleimg{
+    background-image: url(applestore.jpg);
+    height: 34px;
+    width: 84px;
+    margin-top: 25px;
+    margin-left: 664px;
+    background-size:cover;
+     border-radius: 5px;
+ }
+ .layer4{
+    border:2px solid black;
+    display: flex;
+    height: 95px;
+ }
+ .connect{
+    color: white;
+    margin-top: 37px;
+    margin-left: 50px;
+
+ }
