@@ -15,9 +15,9 @@ vector<int> shortestPath(vector<pair<int,int>> edges, int n, int m, int s, int t
     unordered_map<int,bool> visited;
     unordered_map<int,int> parent;
     queue<int> q;
-    q.push(1);
-    parent[1]=-1;
-    visited[1]=true;
+    q.push(s);
+    parent[s]=-1;
+    visited[s]=true;
     while(!q.empty()){
         int front=q.front();
         q.pop();
