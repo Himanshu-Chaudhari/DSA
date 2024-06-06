@@ -83,7 +83,7 @@
 // })
 
 
-// // A function can retuen an enum
+// // A function can retur n an enum
 // // Enum 
 // enum Operation{
 //     Add,
@@ -126,7 +126,7 @@ console.log(ans2);
 console.log(ans3);
 
 
-// In the above example the type of ans3 and ans2 is (number | string) , which is not expected. It creates multiple anamolies to resolve this issue typescript temples are introduced (same as c++ templates)
+// In the above example the type of ans3 and ans2 is (number | string) , which is not expected. It creates multiple anamolies to resolve this issue typescript temples are introduced (same as c++ templates) also known as generics
 
 function getStarting<T>(array:T[]):T{
     return array[0];
